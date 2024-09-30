@@ -20,7 +20,7 @@ def generate_commit_message(changes_description):
                 {
                     "role": "user",
                     "content": (
-                        f"Generate a commit message using emojis for the following "  # noqa
+                        f"Generate a commit message using emoji (git emoji) for the following "  # noqa
                         f"changes: {changes_description}"
                     ),
                 },
